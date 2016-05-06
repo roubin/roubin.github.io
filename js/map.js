@@ -1,4 +1,4 @@
-var map  = L.map('map').setView([45.195,5.743], 14);
+var map  = L.map('display-map').setView([45.195,5.743], 14);
 
 // LAYERS
 var Stamen_Watercolor = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.png', {
@@ -64,17 +64,17 @@ var LatS=45.197158; var LonS=5.771612;
 var LatT=45.196902; var LonT=5.771321; // Bureau
 
 // MARKERS
-var subwayMarkers = L.ExtraMarkers.icon({icon:'fa-subway',markerColor:'red',shape:'square',prefix:'fa'});
-var trainMarkers  = L.ExtraMarkers.icon({icon:'fa-train',markerColor:'green',shape:'square',prefix:'fa'});
-var officeMarkers = L.ExtraMarkers.icon({icon:'fa-building',markerColor:'red',shape:'square',prefix:'fa'});
-var markerA = L.marker([LatZ,LonZ],{icon:subwayMarkers,title:'SNCF train station'}).addTo(tramOverlay);	 
+var subwayMarkers = L.AwesomeMarkers.icon({icon:'fa-subway',  markerColor:'red',  shape:'square',prefix:'fa'});
+var trainMarkers  = L.AwesomeMarkers.icon({icon:'fa-train',   markerColor:'green',shape:'square',prefix:'fa'});
+var officeMarkers = L.AwesomeMarkers.icon({icon:'fa-building',markerColor:'red',  shape:'square',prefix:'fa'});
+var markerA = L.marker([LatZ,LonZ],{icon:subwayMarkers,title:'SNCF train station'}).addTo(tramOverlay);
 var markerB = L.marker([LatA,LonA],{icon:trainMarkers, title:'Gare-Europole'}).addTo(tramOverlay);
 var markerC = L.marker([LatO,LonO],{icon:trainMarkers, title:'Bibliotheques Universitaires'}).addTo(tramOverlay);	
 var markerD = L.marker([LatT,LonT],{icon:officeMarkers,title:'3SR'}).addTo(walkOverlay);
 
 // ICONS
-var tramIcon = L.icon({iconUrl:'js/images/fa-train_25_0_19a918_none.png',iconRetinaUrl:'js/images/fa-train_50_0_19a918_none.png',iconSize:[25,25],iconAnchor:[12.5,25],popupAnchor:[0,-25],shadowUrl:'js/images/marker-shadow.png',shadowAnchor:[12,40]});
-var walkIcon = L.icon({iconUrl:'js/images/map-icon-trail-walking_25_0_2f5acc_none.png',iconRetinaUrl:'js/images/map-icon-trail-walking_50_0_2f5acc_none.png',iconSize:[25,25],iconAnchor:[12.5,25],popupAnchor:[0,-25],shadowUrl:'js/images/marker-shadow.png',shadowAnchor:[12,40]});
+var tramIcon = L.icon({iconUrl:'img/markers/fa-train_25_0_19a918_none.png',iconRetinaUrl:'img/markers/fa-train_50_0_19a918_none.png',iconSize:[25,25],iconAnchor:[12.5,25],popupAnchor:[0,-25],shadowUrl:'img/markers/marker-shadow.png',shadowAnchor:[12,40]});
+var walkIcon = L.icon({iconUrl:'js/images/map-icon-trail-walking_25_0_2f5acc_none.png',iconRetinaUrl:'img/markers/map-icon-trail-walking_50_0_2f5acc_none.png',iconSize:[25,25],iconAnchor:[12.5,25],popupAnchor:[0,-25],shadowUrl:'img/markers/marker-shadow.png',shadowAnchor:[12,40]});
 
 // PATHS
 var tramStop = [[LatA,LonA],[LatB,LonB],[LatC,LonC],[LatD,LonD],[LatE,LonE],[LatF,LonF],[LatG,LonG],[LatH,LonH],[LatI,LonI],[LatJ,LonJ],[LatK,LonK],[LatL,LonL],[LatM,LonM],[LatN,LonN],[LatO,LonO]];

@@ -40,3 +40,19 @@ $(function(){
     });
 });
 
+/* special action when map opens */
+$(function(){
+    $('#open-map').click(function() {
+	if( $(this).find('#map-folded').is( ':hidden' ) ) {
+	    $(this).find('#map-folded').show();
+	    $(this).find('#map-unfolded').hide();
+	} else {
+	    $(this).find('#map-folded').hide();
+	    $(this).find('#map-unfolded').show();
+	}
+	$('html,body').animate({
+	    scrollTop: $('#open-map').offset().top
+	}, 'slow');
+    });
+});
+
