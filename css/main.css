@@ -52,6 +52,7 @@ h4 {font-size:12px;font-weight:bold;display:inline;}
     -webkit-justify-content: center;
     justify-content: center;
 }
+div.center{text-align:center;}
 
 /* link */
 a.arxiv, a.doi, a.preprint, a.draft, a.keynote, a.abstract, a.openaccess, a.tel{color:#D00;line-height:1;font-style:italic;}
@@ -67,17 +68,17 @@ a.openaccess:before{content:'[open access]';}
 a.draft:before{content:'[full text]';}
 a.keynote:before{content:'[keynote]';}
 a.abstract:before{content:'[abstract]';}
-a.exlink,a.download{
+.frame{
     padding:4px 1em 2px 1em;
     text-indent:0px;
     font-weight:normal;
     border-radius:4px;
     border-style:solid;
     border-width:1px;
-    line-height:2;
+    line-height:2.5;
     white-space:nowrap;
 }
-a.exlink:hover,a.download:hover{
+.frame:hover{
     text-decoration:none;
     background-color:rgba(153,188,219,0.85);
     -moz-text-decoration-color:-moz-use-text-color;
@@ -85,8 +86,10 @@ a.exlink:hover,a.download:hover{
     -moz-text-decoration-style:solid;
     box-shadow:0px 2px 2px 0px rgba(0,0,0,0.25);
 }
-a.exlink:after{content:'\f08e';font-family:FontAwesome;margin:0 0 0 10px;display:inline-block;}
-a.download:before{content:'\f019';font-family:FontAwesome;margin:0 10px 0 0;display:inline-block;}
+.external:after{content:'\f08e';font-family:FontAwesome;margin:0 0 0 10px;display:inline-block;}
+.download:before{content:'\f019';font-family:FontAwesome;margin:0 10px 0 0;display:inline-block;}
+.email:before{content:'\f0e0';font-family:FontAwesome;margin:0 10px 0 0;display:inline-block;}
+.download.big{font-size:16px;font-weight:bold;}
 
 /* hover */
 .click{cursor:pointer;}

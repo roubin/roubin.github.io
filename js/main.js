@@ -56,3 +56,34 @@ $(function(){
     });
 });
 
+$(function(){
+
+    //$('#button-email').text( email );
+    $(document).click(function() {
+	$('.reveal-value').hide();
+	$('.reveal-trigger').show();	
+    });
+    $('.reveal-trigger,.reveal-value').click(function(e) {
+	var email = 'emgyzklmkel.roubin@3slkdjoeqmlkenoble.fr';
+	var t = $(this).parents('.reveal-ancestor').find('.reveal-trigger');
+	var v = $(this).parents('.reveal-ancestor').find('.reveal-value');
+
+	a = 'gyzklmk';
+	b = 'manu';
+	c = 'lkdjoeqmlk';
+	d = 'r-gr';
+	    
+	t.show();
+	v.attr('value', email.replace(a,b).replace(c,d) );
+	v.attr('size', email.replace(a,b).replace(c,d).length );
+	v.css('height',       t.css('height') );
+	v.css('line-height',  t.css('line-height') );
+	v.css('border-color', t.css('color') );
+	v.css('font-family', 'Courier New' );
+	v.css('font-size', '10px' );
+	t.hide(); v.show(); v.select();
+	
+	e.stopPropagation();
+	return false;
+    });
+});
