@@ -88,6 +88,7 @@ a.abstract:before{content:'[abstract]';}
 }
 .external:after{content:'\f08e';font-family:FontAwesome;margin:0 0 0 10px;display:inline-block;}
 .download:before{content:'\f019';font-family:FontAwesome;margin:0 10px 0 0;display:inline-block;}
+.scroll:before{content:'\f0ab';font-family:FontAwesome;margin:0 10px 0 0;display:inline-block;}
 .email:before{content:'\f0e0';font-family:FontAwesome;margin:0 10px 0 0;display:inline-block;}
 .download.big{font-size:16px;font-weight:bold;}
 

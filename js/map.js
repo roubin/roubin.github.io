@@ -74,7 +74,7 @@ var markerD = L.marker([LatT,LonT],{icon:officeMarkers,title:'3SR'}).addTo(walkO
 
 // ICONS
 var tramIcon = L.icon({iconUrl:'img/markers/fa-train_25_0_19a918_none.png',iconRetinaUrl:'img/markers/fa-train_50_0_19a918_none.png',iconSize:[25,25],iconAnchor:[12.5,25],popupAnchor:[0,-25],shadowUrl:'img/markers/marker-shadow.png',shadowAnchor:[12,40]});
-var walkIcon = L.icon({iconUrl:'js/images/map-icon-trail-walking_25_0_2f5acc_none.png',iconRetinaUrl:'img/markers/map-icon-trail-walking_50_0_2f5acc_none.png',iconSize:[25,25],iconAnchor:[12.5,25],popupAnchor:[0,-25],shadowUrl:'img/markers/marker-shadow.png',shadowAnchor:[12,40]});
+var walkIcon = L.icon({iconUrl:'img/markers/map-icon-trail-walking_25_0_2f5acc_none.png',iconRetinaUrl:'img/markers/map-icon-trail-walking_50_0_2f5acc_none.png',iconSize:[25,25],iconAnchor:[12.5,25],popupAnchor:[0,-25],shadowUrl:'img/markers/marker-shadow.png',shadowAnchor:[12,40]});
 
 // PATHS
 var tramStop = [[LatA,LonA],[LatB,LonB],[LatC,LonC],[LatD,LonD],[LatE,LonE],[LatF,LonF],[LatG,LonG],[LatH,LonH],[LatI,LonI],[LatJ,LonJ],[LatK,LonK],[LatL,LonL],[LatM,LonM],[LatN,LonN],[LatO,LonO]];
@@ -105,7 +105,7 @@ walkOverlay.addTo(map);
 var baseLayers = {
     "Artistic view":Stamen_Watercolor,
     "Street name":OpenStreetMap_Mapnik,
-    "Outdoors":Thunderforest_Outdoors
+//    "Outdoors":Thunderforest_Outdoors
 };
 var overlays = {
     '<i class="fa fa-train"></i> Tram': tramOverlay,
