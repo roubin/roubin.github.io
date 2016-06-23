@@ -1,529 +1,529 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="img/icon.png" />
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="img/icon.png" />
 
-	<title>Emmanuel Roubin | Morphologies, cracks and heterogeneous materials</title>
+  <title>Emmanuel Roubin | Morphologies, cracks and heterogeneous materials</title>
 
-	<!-- css font-awesome -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-	<!-- css leaflet -->
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-rc.1/leaflet.css" />
-	<!-- css leaflet extra-markers -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css">
-	<!-- css bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<!-- css perso -->
-	<link rel="stylesheet" type="text/css" href="css/main.css" />
-	
-	<!--[if lt IE 9]>
-             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-    </head>
-    
-    <body>
-	<!-- open contrainer -->
-	<div class="container-fluid">	    
-	    <!-- open middle col -->
-	    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
-		<!-- open header -->
-		<div class="row flex-align">
-		    <div class="col-sm-7 col-sm-offset-1 col-xs-12 col-xs-offset-0">
-			<h1>Emmanuel Roubin</h1>
-			Working at the <a href="http://www.univ-grenoble-alpes.fr/" target="_blank" >Universit&eacute; Grenoble Alpes (UGA)</a>, France.<br />
-			Affiliated to  <a href="http://www.3sr-grenoble.fr/?lang=en" target="_blank">3SR (UMR 5521)</a> and <a href="https://iut1.ujf-grenoble.fr/departement-d-enseignement/genie-civil-construction-durable" target="_blank">IUT 1 GCCD</a><br />
-			<!--  <img src="img/email.png" style="height:1em;vertical-align:middle;" alt="email"><br /> -->
-			<div class="reveal-ancestor" style="height:3em;line-height:3em;">
-			    <a     class="frame email click reveal-trigger"><img src="img/email_tr.png" style="height:1em;vertical-align:middle;" alt="email"></a>
-			    <input class="frame email click reveal-value" style="display:none"><br />
-			</div>
-			<a class="frame download" href="http://perso.crans.org/roubin/dl/Roubin_contact_3SR.pdf" target="_blank">Download contact information and maps</a>
-			
-		    </div>
-		    <div class="col-sm-3 col-xs-12">
-			<img id="avatar" class="avatar roundbox10px" src="img/ho2.png" height="130px" alt="avatar"/>		    
-		    </div>
-		</div> <!-- close header -->
+  <!-- css font-awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+  <!-- css leaflet -->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-rc.1/leaflet.css" />
+  <!-- css leaflet extra-markers -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css">
+  <!-- css bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- css perso -->
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
 
-		<!-- open title research -->
-		<div id="research" class="row newsection roundbox4px">
-		    <div class="col-sm-12 flex-vertical">
-			<div class="flex-left">
-			    <h2><i class="fa fa-area-chart" aria-hidden="true"></i> Research </h2> 
-			</div>
-			<div class="flex-right">
-			    <a  href="#findme"      class="fa fa-map-signs"></a>
-			    <a  href="#career"      class="fa fa-graduation-cap"></a>
-			    <a  href="#publication" class="fa fa-book"></a>
-			    <a  href="#research"    class="fa fa-area-chart "></a>
-			</div>
-		    </div>
-		</div> <!-- close title research -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
 
-		<div class="row"><div class="col-xs-12 flex-align"><i>Click on pictures for details</i></div></div>
-		
-		<!-- open section research -->
-		<!-- open subsection efem -->
-		<div class="row unfold-ancestor">
-		    <div class="col-sm-10 col-sm-offset-1">
-			<div class="row flex-vertical">
-			    <div class="col-sm-2 flex-align">
-				<img src="img/5.png" class="thumb roundbox4px click unfold-toggle" alt=""/></span>
-			    </div>
-			    <div class="col-sm-10">
-				<h3>Mesoscopic description of cementitious material</h3><br>
-				<a class="frame external" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/267456223_Multi-scale_failure_of_heterogeneous_materials_a_double_kinematics_enhancement_for_Embedded_Finite_Element_Method/links/545e12290cf2c1a63bfbffeb.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank">[Roubin <i>et al.</i>, 2015]</a> <a class="frame external" href="https://www.researchgate.net/publication/272575904_Meso-scale_modeling_of_concrete_A_morphological_description_based_on_excursion_sets_of_Random_Fields" target="_blank">[Roubin <i>et al.</i>, 2015]</a> <a class="frame external" href="https://www.researchgate.net/publication/267979768_keynote_WCCM_XI_-_Meso-scale_FE_and_morphological_modeling_of_cementitious_material" target="_blank">[Roubin, Talk WCCM 2014]</a>
-			    </div>
-			</div>
-			<div class="row unfold-child">
-			    <div class="col-sm-10 col-sm-offset-1">
-				<div class="row">
-				    <div class="col-sm-12">
-					<p>The main idea of this work is part of an approach that attempts to represent the quasi-brittle behavior of heterogeneous materials such as cementitious ones. The guideline followed fits in a sequenced multi-scale framework for which descriptions of the material are selected at a thin scale (mesoscopic or microscopic) and information is transferred to a larger scale (macroscopic). It shows how the explicit representation of heterogeneities offers interesting prospects on identification, understanding and modeling of macroscopic behaviors. In practice, from a simple description of each phases and interfaces behavior, a structural effect that leads to more complex macroscopic behavior is observed.</p>
-					<p>This work is therefore focusing on two main axes. On the one hand, the morphological representation of the heterogeneities is handle using the excursion sets theory. Randomly shaped inclusions, which geometrical and topological characteristics are analytically controlled, are produced by applying a threshold on realizations of correlated Random Fields.</p>
-				    </div>
-				</div>
-				<div class="row">
-				    <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/1.png);background-size:contain;width:100%;height:150px"></div></div>
-				    <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/2.png);background-size:contain;width:100%;height:150px"></div></div>
-				    <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/3.png);background-size:contain;width:100%;height:150px"></div></div>
-				</div>
-				<div class="row">
-				    <div class="col-sm-4 center">Correlated Random Field</div>
-				    <div class="col-sm-4 center">Excursion set</div>
-				    <div class="col-sm-4 center">Excursion set</div>
-				</div>
-				<div class="row">
- 				    <div class="col-sm-12">
-					<p>On the other hand, the FE implementation of both heterogeneity and local degradation behavior (micro-cracking) are dealt with by a double kinematics enhancement (weak and strong discontinuity) using the Embedded Finite Element Method. Finally, combining both axes of the problematic, the resulting model is tested by modeling cementitious materials at the meso-scale under uniaxial loadings mainly. It reveals an emergent macroscopic response that exhibits several features such as asymmetry of the tension-compression stress-strain relationship, cracks' patterns or historical-dependency, which are typical of concrete-like materials.</p>
-				    </div>
-				</div>
-				<div class="row">
-				    <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/4.png);background-size:contain;width:100%;height:150px"></div></div>
-				    <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/5.png);background-size:contain;width:100%;height:150px"></div></div>
-				    <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/6.png);background-size:contain;width:100%;height:150px"></div></div>
-				</div>		
-				<div class="row">
-				    <div class="col-sm-4 center">FE mesh</div>
-				    <div class="col-sm-4 center">Crack opening for a simple Uniaxial tensile test</div>
-				    <div class="col-sm-4 center">Crack opening for a simple Uniaxial compression test</div>
-				</div>
-			    </div>
-			</div>
-		    </div>
-		</div> <!-- close subsection efem -->
-		<hr />
+<body>
+  <!-- open contrainer -->
+  <div class="container-fluid">
+    <!-- open middle col -->
+    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+      <!-- open header -->
+      <div class="row flex-align">
+        <div class="col-sm-7 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+          <h1>Emmanuel Roubin</h1>
+          Working at the <a href="http://www.univ-grenoble-alpes.fr/" target="_blank" >Universit&eacute; Grenoble Alpes (UGA)</a>, France.<br />
+          Affiliated to  <a href="http://www.3sr-grenoble.fr/?lang=en" target="_blank">3SR (UMR 5521)</a> and <a href="https://iut1.ujf-grenoble.fr/departement-d-enseignement/genie-civil-construction-durable" target="_blank">IUT 1 GCCD</a><br />
+          <!--  <img src="img/email.png" style="height:1em;vertical-align:middle;" alt="email"><br /> -->
+          <div class="reveal-ancestor" style="height:3em;line-height:3em;">
+            <a     class="frame email click reveal-trigger"><img src="img/email_tr.png" style="height:1em;vertical-align:middle;" alt="email"></a>
+            <input class="frame email click reveal-value" style="display:none"><br />
+          </div>
+          <a class="frame download" href="http://perso.crans.org/roubin/dl/Roubin_contact_3SR.pdf" target="_blank">Download contact information and maps</a>
 
-		<!-- open subsection percolation -->
-		<div class="row unfold-ancestor">
-		    <div class="col-sm-10 col-sm-offset-1">
-			<div class="row flex-vertical">
-			    <div class="col-sm-2 flex-align">
-				<img src="img/10.png" class="thumb roundbox4px click unfold-toggle" alt=""/></span>
-			    </div>
-			    <div class="col-sm-10">
-				<h3>Critical probability of percolation</h3><br>
-				<a class="frame external" href="https://arxiv.org/abs/1510.08252" target="_blank">[Roubin <i>et al.</i>, arXiv]</a>
-			    </div>
-			</div>
-			<div class="row unfold-child">
-			    <div class="col-sm-10 col-sm-offset-1">
-				<div class="row">
-				    <div class="col-sm-12">
-					<p>We propose an analytical model to predict critical probability of percolation. It is based on the excursion set theory which allows us to consider N-dimensional bounded regions. Details are given for the 3D case and statistically Representative Volume Elements are calculated. Finally generalisation to the N-dimensional case is made.</p>
-				    </div>
-				</div>
-			    </div>
-			</div>
-		    </div>
-		</div> <!-- close subsection percolation -->
-		<hr />
-		
-		<!-- open subsection fe2 and reduction -->
-		<div class="row unfold-ancestor">
-		    <div class="col-sm-10 col-sm-offset-1">
-			<div class="row flex-vertical">
-			    <div class="col-sm-2 flex-align">
-				<img src="img/7.png" class="thumb roundbox4px click unfold-toggle" alt=""/></span>
-			    </div>
-			    <div class="col-sm-10">
-				<h3>Multi-scale analysis of fracture and reduced order models</h3><br>
-				<a class="frame external" href="https://www.researchgate.net/publication/279954964_Continuum_approach_to_computational_multiscale_modeling_of_propagating_fracture" target="_blank">[Oliver <i>et al.</i>, 2015]</a> <a class="frame external" href="https://www.researchgate.net/publication/279448001_keynote_CMN2015_-_On_POD_based_reduction-order_modeling_in_multi-scale_material_failure_simulation" target="_blank">[Roubin, Talk CMN 2015]</a>
-			    </div>
-			</div>
-			<div class="row unfold-child">
-			    <div class="col-sm-10 col-sm-offset-1">
-				<div class="row">
-				    <div class="col-sm-12">
-					<p>The work proposes a FE2 multiscale approach to computational modeling of material failure in concrete-like structures, made of cement/aggregate-type composite materials. Keeping the approach in a classical homogenization setting, a multiscale model is proposed, which naturally provides a microscopic lengthscale to be exported to the macrostructure. There, this length scale is used as regularization parameter in the context of the Continuum Strong Discontinuity Approach to material failure, and finite elements with embedded strong discontinuities (E-FEM). The resulting technique allows robust modeling of crack propagation at the structural scale, accounting for the mesostructure morphology, supplies proper energy dissipation and solutions independent of the finite element and RVE sizes. Application to a number of examples, in the range from light-aggregate concrete to regular concrete, shows the potentiality of the method.</p>
-					<p>Stabilization technics are used in order to address the commun numerical issues of highly localized strain fields. A double strain-injection scheme of weak and strong discontinuities along with a crack path field method <a href="http://dx.doi.org/10.1016/j.cma.2014.01.008" target="_blank">[Oliver 2014]</a> is used at the macroscopic scale.</p>
-				    </div>
-				</div>
-				<div class="row">
-				    <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/7.png);background-size:contain;width:100%;height:150px"></div></div>
-				    <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/8.png);background-size:contain;width:100%;height:150px"></div></div>
-				    <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/9.png);background-size:contain;width:100%;height:150px"></div></div>
-				</div>
-				<div class="row">
-				    <div class="col-sm-4 center">Displacement field showing highly localized strains</div>
-				    <div class="col-sm-4 center">Injection of weak and strong discontinuity kinematics</div>
-				    <div class="col-sm-4 center">Crack path field and mesoscopic cell failure mechanisms</div>
-				</div>
-				<div class="row">
- 				    <div class="col-sm-12">
-					<p>The reduced order part of the work addresses the problematic of reducing the computational time of multi-scale framework by solving, at each point of the structural scale, the Representative Volume Element (RVE) equilibrium problem using Reduce-Basis approximations. A specific methodology is proposed in order to tackle non-smooth fields. Therefore, the framework can find its applications into quasi-brittle heterogeneous materials, such as cementitious ones, and aims at performing crack propagation computations at a structural level.</p>
-					<p>The model is based on the Finite Element Method at both scales linked by weak coupling (FE2). The macro-strain acts as a loading parameter on the RVE whereas the macro-stress is the resulting homogenization of the micro-stress. The degradation mechanisms are modeled by the Continuum Strong Discontinuity Approach (CSDA) which lead to kinematic of the macroscopic crack defined in a small dimensional space.</p>
-					<p>The basis used for the reduction are constructed with a partitioned version of the Proper Orthogonal Decomposition of a set of a pre-computed snapshots, allowing us to consider distinctly  the different regime of the solution (elastic, hardening or softening). Then, in addition to the projection of the solution (strains) onto a reduced basis, the interpolation of the off-line terms (stresses) is also made in a reduced-order space. To avoid the resulting ill-posed formulation, an expansion of the approximation space is made. Finally, based on both precision and stability considerations, a point-selecting algorithm (greedy) is perform in order to reduce the number of integration points.</p>
-					<p>The specificity of the method in regards with the potentially non-smooth solutions comes from a decomposition of the fields between elastic and inelastic domains of the RVE thus increasing the efficiency of the greedy algorithm. Such a decomposition is possible thanks to the CSDA that allows us to fully express the RVE formulation in terms of strains.</p>
-				    </div>
-				</div>
-			    </div>
-			</div>
-		    </div>
-		</div> <!-- close subsection fe2 and reduction -->
-		<hr />
-		
-		<!-- open title publication -->
-		<div id="publication" class="row newsection roundbox4px">
-		    <div class="col-sm-12 flex-vertical">
-			<div class="flex-left">
-			    <h2><i class="fa fa-book" aria-hidden="true"></i> Publications</h2>
-			</div>
-			<div class="flex-right">
-			    <a  href="#findme"      class="fa fa-map-signs"></a>
-			    <a  href="#career"      class="fa fa-graduation-cap"></a>
-			    <a  href="#publication" class="fa fa-book"></a>
-			    <a  href="#research"    class="fa fa-area-chart "></a>
-			</div>
-		    </div>
-		</div> <!-- close title publication -->
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <img id="avatar" class="avatar roundbox10px" src="img/ho2.png" height="130px" alt="avatar"/>
+        </div>
+      </div> <!-- close header -->
 
-		<!-- open section publication -->		
-		<div class="row biblio">
-		    <div class="col-sm-10 col-sm-offset-1">
-			<div class="row">
-			    <div class="col-sm-12">
-				<h3>Journals</h3>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2016</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li>E. Roubin, J.-B. Colliat. Critical probability of percolation over bounded region in N-dimensional Euclidean space. <i>Journal of Statistical Mechanics: theory and experiment</i>, 2016. <a class="arxiv" href="http://arxiv.org/abs/1510.08252" target="_blank">1510.08252</a> <a href="http://dx.doi.org/10.1088/1742-5468/2016/03/033306" target="_blank" class="doi">10.1088/1742-5468/2016/03/033306</a></li>
-				</ul>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2015</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li>J. Oliver, M. Caicedo, E. Roubin, A. Huespe and Joaquin Hernandez. Continuum approach to computational multi-scale modeling of propagating fracture. <i>Computer in Applied Mechanics and Engineering</i>, 2015. <a href="http://dx.doi.org/10.1016/j.cma.2015.05.012" target="_blank" class="doi">10.1016/j.cma.2015.05.012</a> <a class="openaccess" href="https://www.researchgate.net/publication/279954964_Continuum_approach_to_computational_multiscale_modeling_of_propagating_fracture?ev=prf_pub" target="_blank"></a></li>
-				    <li>E. Roubin, N. Benkemoun, and J.-B. Colliat. Meso-scale modeling of concrete: morphological description based on excursion sets of Random Fields. <i>Computational Materials Science</i>, 2015. <a href="http://dx.doi.org/10.1016/j.commatsci.2015.02.039" target="_blank" class="doi">10.1016/j.commatsci.2015.02.039</a> <a class="preprint" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/272575904_Meso-scale_modeling_of_concrete_a_morphological_description_based_on_excursion_sets_of_Random_Fields/links/54e9b6f50cf2f7aa4d53bac2.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
-				    <li>R. Gelet, N. Benkemoun, E. Roubin, and J.-B. Colliat. Poro-elastic two-phase material modeling: theoretical formulation and embedded finite element method implementation. <i>International Journal for Numerical and Analytical Methods in Geomechanics</i>, 2015. <a href="http://dx.doi.org/10.1002/nag.2351" target="_blank" class="doi">10.1002/nag.2351</a></li>	      
-				    <li>E. Roubin, A. Vallade, N. Benkemoun, and J.-B. Colliat. Multi-scale failure of heterogeneous materials: a double kinematics enhancement for embedded finite element method. <i>International Journal of Solids and Structures</i>, 2015. <a href="http://dx.doi.org/10.1016/j.ijsolstr.2014.10.001" target="_blank" class="doi">10.1016/j.ijsolstr.2014.10.001</a> <a class="preprint" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/267456223_Multi-scale_failure_of_heterogeneous_materials_a_double_kinematics_enhancement_for_Embedded_Finite_Element_Method/links/545e12290cf2c1a63bfbffeb.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
-				    <!-- <li>V. Magnier, E. Roubin, J.-B. Colliat, and P. Dufr&eacute;noy. Methodology of porosity modelling for friction pad : Consequence on squeal. <i>Accepted for publication in Journal of Sound and Vibration</i>, 2015.</li>  -->
-				</ul>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2014</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li style="opacity:0.5">J. Oliver, M. Caicedo, E. Roubin, and A. Huespe. Continuum approach to computational multi-scale modeling of fracture. <i>Key Engineering Materials</i>, 627:349–352, 2014, <a href="http://dx.doi.org/10.4028/www.scientific.net/KEM.627.349" target="_blank" class="doi">10.4028/www.scientific.net/KEM.627.349</a> <a class="preprint" href="https://www.researchgate.net/publication/272575913_Continuum_approach_to_computational_multi-scale_modeling_of_fracture" target="_blank"></a></li>
-				    <li>E. Roubin, M. Al. Shamaa, J.-B. Colliat, A. Pavoine, L. Divet, J.-M. Torrenti, and G. Nahas. A nonlinear meso–macro approach to modelling delayed ettringite formation and concrete degradation. <i>Materials and Structures</i>, 2014. <a href="http://dx.doi.org/10.1617/s11527-013-0160-z" target="_blank" class="doi">10.1617/s11527-013-0160-z</a></li>
-				</ul>
-			    </div>
-			</div>			
-			<div class="row">
-			    <div class="col-sm-12">
-				<h3>Seminars and Conferences</h3>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2015</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li>E. Roubin, M. Caicedo, J.A. Hernandez, A.E. Huespe and J. Oliver. On POD based reduction-order modeling in multi-scale material failure simulation. In <i>CMN2015</i>, Portugal, 2015. <a class="keynote" href="https://www.researchgate.net/publication/279448001_keynote_CMN2015_-_On_POD_based_reduction-order_modeling_in_multi-scale_material_failure_simulation" target="_blank"></a></li>
-				    <li>M. Caicedo, E. Roubin and J. Oliver. Continuum multi-scale modeling of fracture in cementicious-like materials. In <i>CMN2015</i>, Portugal, 2015.</li>
-				    <li>J. Oliver, M. Caicedo, E. Roubin, and A. E. Huespe. Continuum multi-scale modeling of fracture. In <i>Euromech 559</i>, The Netherlands, 2015.</li>
-				</ul>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2014</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li>M. Caicedo, J. Oliver, A. Huespe, E. Roubin, and J. Hernandez. Continuum multiscal (FE2) modeling of material failure. In <i>WCCM - 11th</i>, Spain, 2014.</li>
-				    <li>E. Roubin, N. Benkemoun, and J.-B. Colliat. Mesoscale finite element modeling of cementitious materials. In <i>WCCM - 11th</i>, Spain, 2014. <a class="abstract" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/267979837_Meso-scale_FE_and_morphological_modeling_of_cementitious_material/links/545e177c0cf27487b44ef1b5.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a> <a class="keynote" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/267979768_keynote_WCCM_XI_-_Meso-scale_FE_and_morphological_modeling_of_cementitious_material/links/545e18c20cf27487b44ef29b.pdf?ev=pub_int_doc_dl&origin=publication_list&inViewer=true" target="_blank"></a></li>
-				    <li>J. Oliver, M. Caicedo, E. Roubin, J. Hernandez, and A. Huespe. Multi-scale (FE2) analysis of material failure in cement/aggregate-type composite structures. In <i>Euro-C</i>, Austria, 2014. <a class="draft" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/265648968_Multi-scale_%28FE2%29_analysis_of_material_failure_in_cementaggregate-type_composite_structures/links/5417fa950cf2218008bf05c3.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
-				</ul>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2013</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li>E. Roubin. Multi-scale simulation of quasi-brittle heterogeneous materials: application to concrete like materials. In <i>31e rencontres de l’AUGC</i>, France, 2013. <a class="draft" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/256667996_Multi-scale_simulation_of_quasi-brittle_heterogeneous_materials_application_to_concrete_like_materials/links/02e7e5239671741c85000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
-				</ul>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2012</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li>E. Roubin, N. Benkemoun, and J.-B. Colliat. Quasi-brittle failure of heterogeneous materials: 3d meso-scale FE models with embedded discontinuities. In <i>WCCM - 10th</i>, Brazil, 2012.</li>
-				    <li>M. Bogdan, E. Roubin, J.-B. Colliat, F. Benboudjema, and L. Stefan. Morphological modeling of cement based materials and hydration process. In <i>MicroDurability</i>, Netherlands, 2012. <a class="draft" href="https://www.researchgate.net/profile/Mateusz_Bogdan/publication/267513220_MORPHOLOGICAL_MODELING_OF_CEMENT_BASED_MATERIALS_AND_HYDRATION_PROCESS/links/5451fddf0cf285a067c6b1dc.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
-				    <li>M. Bogdan, E. Roubin, J.-B. Colliat, F. Benboudjema, and L. Stefan. Modélisation des transferts de masse dans les matériaux à matrice cimentaire à l’aide d’un modèle morphologique. In <i>Transfert 2012</i>, Lille (France), 2012.</li>
-				</ul>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2011</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li>E. Roubin, M. Bogdan, and J.-B. Colliat. Multi-scale failure for heterogeneous materials: link with morphological modeling. In  <i>COMPLAS - XI</i>, Spain, 2011. <a class="draft" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/256482718_MULTI-SCALE_FAILURE_FOR_HETEROGENEOUS_MATERIALS_LINK_WITH_MORPHOLOGICAL_MODELING/links/00b7d52302b095883f000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
-				</ul>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2010</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li>E. Roubin and J.-B. Colliat. Modélisation morphologique de matériaux hétérogènes par seuillage de champs aléatoires : application aux matériaux à matrice cimentaire. In <i>Séminaires des doctorants</i>, LMT-Cachan, 2010.</li>			    
-				</ul>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-12">
-				<h3>Reports</h3>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2013</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li>E. Roubin. Meso-scale FE and morphological modeling of heterogeneous media: application to cementitious materials. PhD thesis, <i>&Eacute;cole Normale Sup&eacute;rieure de Cachan</i>, LMT-Cachan, France, 2013. <a class="draft" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/257890878_Meso-scale_FE_and_morphological_modeling_of_heterogeneous_media_applications_to_cementitious_materials/links/02e7e527a1c8917a8c000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a> <a class="tel" href="https://tel.archives-ouvertes.fr/tel-00957377" target="_blank">00957377</a></li>
-				</ul>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-1">
-				<h4>2010</h4>
-			    </div>
-			    <div class="col-sm-11">
-				<ul>
-				    <li>E. Roubin. Modélisation morphologique de matériaux hétérogènes par seuillage de champs aléatoires : application aux matériaux à matrice cimentaire. Internship, <i>&Eacute;cole Normale Sup&eacute;rieure de Cachan</i>, LMT-Cachan, France, 2010. <a class="draft" href="http://perso.crans.org/roubin/dl/Roubin_Master_thesis.pdf" target="_blank"></a></li>
-				</ul>
-			    </div>
-			</div>
-		    </div>
-		</div> <!-- close section publication -->
-		
-		<!-- open title career -->
-		<div id="career" class="row newsection roundbox4px">
-		    <div class="col-sm-12 flex-vertical">
-			<div class="flex-left">
-			    <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Career</h2>
-			</div>
-			<div class="flex-right">
-			    <a  href="#findme"      class="fa fa-map-signs"></a>
-			    <a  href="#career"      class="fa fa-graduation-cap"></a>
-			    <a  href="#publication" class="fa fa-book"></a>
-			    <a  href="#research"    class="fa fa-area-chart "></a>
-			</div>
-		    </div>
-		</div> <!-- close title career -->
-		
-		<!-- open section career -->
-		<div class="row career">
-		    <div class="col-sm-10 col-sm-offset-1">
-			<div class="row">
-			    <div class="col-sm-12 flex-align">
-				<span><a class="frame external" href="https://github.com/roubin/Curriculum/raw/master/roubin_cv_2p_french.pdf" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Curriculum Vit&aelig; in french </a></span>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-3">
-				Since September 2015
-			    </div>
-			    <div class="col-sm-9">
-				<strong>Ma&icirc;tre de conf&eacute;rence</strong> at the <a href="http://www.3sr-grenoble.fr" target="_blank">3SR</a> (Sols, Solides, Structures et Risques) and the <a href="https://iut1.ujf-grenoble.fr" target="_blank">IUT DGGC</a> in Grenoble.
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-3">
-				October 2013 - June 2015
-			    </div>
-			    <div class="col-sm-9">
-				<strong>Postdoctoral researcher</strong> at the International Center for Numerical Methods in Engineering (<a href="http://www.cimne.com" target="_blank">CIMNE</a>, Barcelona Spain) for the project Advanced tools for computational design of engineering materials (ERC, <a href="http://compdesmat.com" target="_blank">COMP-DES-MAT</a>) with Professor X. Oliver.
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-3">
-				October 2013
-			    </div>
-			    <div class="col-sm-9">
-				<strong>Doctor of the ENS Cachan</strong>. Subject: Meso-scale FE and morphological modeling of heterogeneous media: applications to cementitious materials.
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-3">
-				May - June 2012
-			    </div>
-			    <div class="col-sm-9">
-				Stay at the Institut für Wissenschaftliches Rechnen, (<a href="https://www.tu-braunschweig.de/wire" target="_blank">wire</a>, Braunschweig Germany), with Professor H.G. Matthies.
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-3">
-				September 2010 to 2013
-			    </div>
-			    <div class="col-sm-9">
-				<strong>Ph.D. Thesis</strong> at the <a href="http://www.lmt.ens-cachan.fr" target="_blank">LMT-Cachan</a> (ENS Cachan, France) under the supervision of Professor J.-B. Colliat.
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-3">
-				June 2010
-			    </div>
-			    <div class="col-sm-9">
-				<strong>Master degree</strong> of the ENS Cachan (France) in Civil Engineering.
-			    </div>
-			</div>			
-		    </div>
-		</div> <!-- close section career -->
+      <!-- open title research -->
+      <div id="research" class="row newsection roundbox4px">
+        <div class="col-sm-12 flex-vertical">
+          <div class="flex-left">
+            <h2><i class="fa fa-area-chart" aria-hidden="true"></i> Research </h2>
+          </div>
+          <div class="flex-right">
+            <a  href="#findme"      class="fa fa-map-signs"></a>
+            <a  href="#career"      class="fa fa-graduation-cap"></a>
+            <a  href="#publication" class="fa fa-book"></a>
+            <a  href="#research"    class="fa fa-area-chart "></a>
+          </div>
+        </div>
+      </div> <!-- close title research -->
 
-		<!-- open title find me -->
-		<div id="findme" class="row newsection roundbox4px">
-		    <div class="col-sm-12 flex-vertical">
-			<div class="flex-left">
-			    <h2><i class="fa fa-map-signs" aria-hidden="true"></i> Find me</h2>
-			</div>
-			<div class="flex-right">
-			    <a  href="#findme"      class="fa fa-map-signs"></a>
-			    <a  href="#career"      class="fa fa-graduation-cap"></a>
-			    <a  href="#publication" class="fa fa-book"></a>
-			    <a  href="#research"    class="fa fa-area-chart "></a>
-			</div>
-		    </div>
-		</div> <!-- close title find me -->
+      <div class="row"><div class="col-xs-12 flex-align"><i>Click on pictures for details</i></div></div>
 
-		<!-- open section find me -->
-		<div class="row">
-		    <div class="col-sm-10 col-sm-offset-1">
-			<div class="row">
-			    <div class="col-sm-4">
-				<h4>On the internet</h4>
-			    </div>
-			    <div class="col-sm-8">
-				<a class="frame external" href="http://www.researcherid.com/rid/L-7248-2014" target="_blank">Researcher<strong>ID</strong> (L-7248-2014)</a>
-				<a class="frame external" href="http://github.com/roubin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a><br />
-				<a class="frame external" href="http://scholar.google.fr/citations?user=DSfSW7oAAAAJ&hl=fr" target="_blank"><strong>Google</strong> Scholar</a>
-				<a class="frame external" href="https://www.researchgate.net/profile/Emmanuel_Roubin" target="_blank">Research<strong>Gate</strong></a>
-			    </div>
-			</div>
-			<hr />
-			<div class="row">
-			    <div class="col-sm-4">
-				<h4>IRL</h4>				
-			    </div>
-			    <div class="col-sm-4">
-				<i class="fa fa-building" aria-hidden="true"></i> <strong>Address</strong><br/>
-				Laboratoire 3SR<br/>
-				Bâtiment Galilée, Bureau 228<br/>
-				1270 rue de la piscine<br/>
-				38 400 Saint Martin d'Hères, France
-			    </div>
+      <!-- open section research -->
+      <!-- open subsection efem -->
+      <div class="row unfold-ancestor">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="row flex-vertical">
+            <div class="col-sm-2 flex-align">
+              <img src="img/5.png" class="thumb roundbox4px click unfold-toggle" alt=""/></span>
+            </div>
+            <div class="col-sm-10">
+              <h3>Mesoscopic description of cementitious material</h3><br>
+              <a class="frame external" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/267456223_Multi-scale_failure_of_heterogeneous_materials_a_double_kinematics_enhancement_for_Embedded_Finite_Element_Method/links/545e12290cf2c1a63bfbffeb.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank">[Roubin <i>et al.</i>, 2015]</a> <a class="frame external" href="https://www.researchgate.net/publication/272575904_Meso-scale_modeling_of_concrete_A_morphological_description_based_on_excursion_sets_of_Random_Fields" target="_blank">[Roubin <i>et al.</i>, 2015]</a> <a class="frame external" href="https://www.researchgate.net/publication/267979768_keynote_WCCM_XI_-_Meso-scale_FE_and_morphological_modeling_of_cementitious_material" target="_blank">[Roubin, Talk WCCM 2014]</a>
+            </div>
+          </div>
+          <div class="row unfold-child">
+            <div class="col-sm-10 col-sm-offset-1">
+              <div class="row">
+                <div class="col-sm-12">
+                  <p>The main idea of this work is part of an approach that attempts to represent the quasi-brittle behavior of heterogeneous materials such as cementitious ones. The guideline followed fits in a sequenced multi-scale framework for which descriptions of the material are selected at a thin scale (mesoscopic or microscopic) and information is transferred to a larger scale (macroscopic). It shows how the explicit representation of heterogeneities offers interesting prospects on identification, understanding and modeling of macroscopic behaviors. In practice, from a simple description of each phases and interfaces behavior, a structural effect that leads to more complex macroscopic behavior is observed.</p>
+                  <p>This work is therefore focusing on two main axes. On the one hand, the morphological representation of the heterogeneities is handle using the excursion sets theory. Randomly shaped inclusions, which geometrical and topological characteristics are analytically controlled, are produced by applying a threshold on realizations of correlated Random Fields.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/1.png);background-size:contain;width:100%;height:150px"></div></div>
+                <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/2.png);background-size:contain;width:100%;height:150px"></div></div>
+                <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/3.png);background-size:contain;width:100%;height:150px"></div></div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 center">Correlated Random Field</div>
+                <div class="col-sm-4 center">Excursion set</div>
+                <div class="col-sm-4 center">Excursion set</div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p>On the other hand, the FE implementation of both heterogeneity and local degradation behavior (micro-cracking) are dealt with by a double kinematics enhancement (weak and strong discontinuity) using the Embedded Finite Element Method. Finally, combining both axes of the problematic, the resulting model is tested by modeling cementitious materials at the meso-scale under uniaxial loadings mainly. It reveals an emergent macroscopic response that exhibits several features such as asymmetry of the tension-compression stress-strain relationship, cracks' patterns or historical-dependency, which are typical of concrete-like materials.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/4.png);background-size:contain;width:100%;height:150px"></div></div>
+                <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/5.png);background-size:contain;width:100%;height:150px"></div></div>
+                <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/6.png);background-size:contain;width:100%;height:150px"></div></div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 center">FE mesh</div>
+                <div class="col-sm-4 center">Crack opening for a simple Uniaxial tensile test</div>
+                <div class="col-sm-4 center">Crack opening for a simple Uniaxial compression test</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- close subsection efem -->
+      <hr />
 
-			    <div class="col-sm-4">
-				<i class="fa fa-phone" aria-hidden="true"></i> <strong>Phone</strong><br/>
-				+33 (0)4 56 52 86 49<br/>
-				<hr />
-				<i class="fa fa-envelope" aria-hidden="true"></i> <strong>email</strong><br/>
-				<div class="reveal-ancestor" style="height:3em;line-height:3em;">
-				    <a     class="frame email click reveal-trigger"><img src="img/email_tr.png" style="height:1em;vertical-align:middle;" alt="email"></a>
-				    <input class="frame email click reveal-value" style="display:none"><br />
-				</div>
-			    </div>
-			</div>
-			<hr />			
-			<div class="row">
-			    <div class="col-sm-2"><h4>Walkthrough</h4></div>
-			    <div class="col-sm-10">
-				<ol>
-				    <li>From the <i class="fa fa-subway"></i> <a class="popupMap" id="markerA" href="">"SNCF train station"</a> walk to the <i class="fa fa-train"></i> <a class="popupMap" id="markerB" href="">tram station "Gare-Europole"</a></li>
-				    <li>Take the <a class="popupMap" id="tramMovi" href="">TRAM B <i class="fa fa-arrow-right"></i> "Gi&egrave;res Plaine des Sports"</a> and stop at <i class="fa fa-train"></i> <a class="popupMap" id="markerC" href="">"Biblioth&egrave;ques Universitaires"</a></li>
-				    <li><a class="popupMap" id="walkMovi" href="">Walk</a> from there to the <a class="popupMap" id="markerD" href="">Laboratoire 3SR</a></li>
-				</ol>
-			    </div>
-			</div>
-		    </div>
-		</div> <!-- close section find me -->
+      <!-- open subsection percolation -->
+      <div class="row unfold-ancestor">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="row flex-vertical">
+            <div class="col-sm-2 flex-align">
+              <img src="img/10.png" class="thumb roundbox4px click unfold-toggle" alt=""/></span>
+            </div>
+            <div class="col-sm-10">
+              <h3>Critical probability of percolation</h3><br>
+              <a class="frame external" href="https://arxiv.org/abs/1510.08252" target="_blank">[Roubin <i>et al.</i>, arXiv]</a>
+            </div>
+          </div>
+          <div class="row unfold-child">
+            <div class="col-sm-10 col-sm-offset-1">
+              <div class="row">
+                <div class="col-sm-12">
+                  <p>We propose an analytical model to predict critical probability of percolation. It is based on the excursion set theory which allows us to consider N-dimensional bounded regions. Details are given for the 3D case and statistically Representative Volume Elements are calculated. Finally generalisation to the N-dimensional case is made.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- close subsection percolation -->
+      <hr />
 
-		<!-- open map -->
-		<div id="open-map" class="unfold-ancestor roundbox4px click">
-		    <div class="row newsection unfold-toggle">
-			<div class="col-xs-12 flex-align">
-			    <h2 id="map-folded"><i class="fa fa-map"></i> Unfold map</h2>
-			    <h2 id="map-unfolded" style="display:none"><i class="fa fa-map"></i> Fold map</h2>
-			</div>
-		    </div>
-		    <div class="row unfold-child">
-			<div class="col-xs-12">
-			    <div style="text-align:center">
-				<div id="display-map" class="roundbox10px"></div>
-			    </div>
-			</div>
-		    </div>
-		</div> <!-- close map -->
-		<hr />
-		<!-- download infos -->
-		<div class="row flex-align">
-		    <a class="frame download big" href="http://perso.crans.org/roubin/dl/Roubin_contact_3SR.pdf" target="_blank">Download contact information and maps</a>
-		</div>
-					
-	    </div> <!-- close middle col -->
-	</div> <!-- close container -->
-	
-	<!-- js jquery -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-	<!-- js bootstrap -->
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<!-- js leaflet -->
-	<script type="text/javascript" src="http://cdn.leafletjs.com/leaflet/v1.0.0-rc.1/leaflet.js"></script>
-	<!-- js MovingMarker -->
-	<script type="text/javascript" src="js/MovingMarker.js"></script>
-	<!-- js leaflet extra-markers -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
-	<!-- js load leaflet map -->
-	<script type="text/javascript" src="js/map.js"></script>
-	<!-- js perso -->
-	<script type="text/javascript" src="js/main.js"></script>
+      <!-- open subsection fe2 and reduction -->
+      <div class="row unfold-ancestor">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="row flex-vertical">
+            <div class="col-sm-2 flex-align">
+              <img src="img/7.png" class="thumb roundbox4px click unfold-toggle" alt=""/></span>
+            </div>
+            <div class="col-sm-10">
+              <h3>Multi-scale analysis of fracture and reduced order models</h3><br>
+              <a class="frame external" href="https://www.researchgate.net/publication/279954964_Continuum_approach_to_computational_multiscale_modeling_of_propagating_fracture" target="_blank">[Oliver <i>et al.</i>, 2015]</a> <a class="frame external" href="https://www.researchgate.net/publication/279448001_keynote_CMN2015_-_On_POD_based_reduction-order_modeling_in_multi-scale_material_failure_simulation" target="_blank">[Roubin, Talk CMN 2015]</a>
+            </div>
+          </div>
+          <div class="row unfold-child">
+            <div class="col-sm-10 col-sm-offset-1">
+              <div class="row">
+                <div class="col-sm-12">
+                  <p>The work proposes a FE2 multiscale approach to computational modeling of material failure in concrete-like structures, made of cement/aggregate-type composite materials. Keeping the approach in a classical homogenization setting, a multiscale model is proposed, which naturally provides a microscopic lengthscale to be exported to the macrostructure. There, this length scale is used as regularization parameter in the context of the Continuum Strong Discontinuity Approach to material failure, and finite elements with embedded strong discontinuities (E-FEM). The resulting technique allows robust modeling of crack propagation at the structural scale, accounting for the mesostructure morphology, supplies proper energy dissipation and solutions independent of the finite element and RVE sizes. Application to a number of examples, in the range from light-aggregate concrete to regular concrete, shows the potentiality of the method.</p>
+                  <p>Stabilization technics are used in order to address the commun numerical issues of highly localized strain fields. A double strain-injection scheme of weak and strong discontinuities along with a crack path field method <a href="http://dx.doi.org/10.1016/j.cma.2014.01.008" target="_blank">[Oliver 2014]</a> is used at the macroscopic scale.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/7.png);background-size:contain;width:100%;height:150px"></div></div>
+                <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/8.png);background-size:contain;width:100%;height:150px"></div></div>
+                <div class="col-sm-4 flex-align"><div style="background:center no-repeat url(img/9.png);background-size:contain;width:100%;height:150px"></div></div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 center">Displacement field showing highly localized strains</div>
+                <div class="col-sm-4 center">Injection of weak and strong discontinuity kinematics</div>
+                <div class="col-sm-4 center">Crack path field and mesoscopic cell failure mechanisms</div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p>The reduced order part of the work addresses the problematic of reducing the computational time of multi-scale framework by solving, at each point of the structural scale, the Representative Volume Element (RVE) equilibrium problem using Reduce-Basis approximations. A specific methodology is proposed in order to tackle non-smooth fields. Therefore, the framework can find its applications into quasi-brittle heterogeneous materials, such as cementitious ones, and aims at performing crack propagation computations at a structural level.</p>
+                  <p>The model is based on the Finite Element Method at both scales linked by weak coupling (FE2). The macro-strain acts as a loading parameter on the RVE whereas the macro-stress is the resulting homogenization of the micro-stress. The degradation mechanisms are modeled by the Continuum Strong Discontinuity Approach (CSDA) which lead to kinematic of the macroscopic crack defined in a small dimensional space.</p>
+                  <p>The basis used for the reduction are constructed with a partitioned version of the Proper Orthogonal Decomposition of a set of a pre-computed snapshots, allowing us to consider distinctly  the different regime of the solution (elastic, hardening or softening). Then, in addition to the projection of the solution (strains) onto a reduced basis, the interpolation of the off-line terms (stresses) is also made in a reduced-order space. To avoid the resulting ill-posed formulation, an expansion of the approximation space is made. Finally, based on both precision and stability considerations, a point-selecting algorithm (greedy) is perform in order to reduce the number of integration points.</p>
+                  <p>The specificity of the method in regards with the potentially non-smooth solutions comes from a decomposition of the fields between elastic and inelastic domains of the RVE thus increasing the efficiency of the greedy algorithm. Such a decomposition is possible thanks to the CSDA that allows us to fully express the RVE formulation in terms of strains.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- close subsection fe2 and reduction -->
+      <hr />
 
-    </body>
+      <!-- open title publication -->
+      <div id="publication" class="row newsection roundbox4px">
+        <div class="col-sm-12 flex-vertical">
+          <div class="flex-left">
+            <h2><i class="fa fa-book" aria-hidden="true"></i> Publications</h2>
+          </div>
+          <div class="flex-right">
+            <a  href="#findme"      class="fa fa-map-signs"></a>
+            <a  href="#career"      class="fa fa-graduation-cap"></a>
+            <a  href="#publication" class="fa fa-book"></a>
+            <a  href="#research"    class="fa fa-area-chart "></a>
+          </div>
+        </div>
+      </div> <!-- close title publication -->
+
+      <!-- open section publication -->
+      <div class="row biblio">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="row">
+            <div class="col-sm-12">
+              <h3>Journals</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2016</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li>E. Roubin, J.-B. Colliat. Critical probability of percolation over bounded region in N-dimensional Euclidean space. <i>Journal of Statistical Mechanics: theory and experiment</i>, 2016. <a class="arxiv" href="http://arxiv.org/abs/1510.08252" target="_blank">1510.08252</a> <a href="http://dx.doi.org/10.1088/1742-5468/2016/03/033306" target="_blank" class="doi">10.1088/1742-5468/2016/03/033306</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2015</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li>J. Oliver, M. Caicedo, E. Roubin, A. Huespe and Joaquin Hernandez. Continuum approach to computational multi-scale modeling of propagating fracture. <i>Computer in Applied Mechanics and Engineering</i>, 2015. <a href="http://dx.doi.org/10.1016/j.cma.2015.05.012" target="_blank" class="doi">10.1016/j.cma.2015.05.012</a> <a class="openaccess" href="https://www.researchgate.net/publication/279954964_Continuum_approach_to_computational_multiscale_modeling_of_propagating_fracture?ev=prf_pub" target="_blank"></a></li>
+                <li>E. Roubin, N. Benkemoun, and J.-B. Colliat. Meso-scale modeling of concrete: morphological description based on excursion sets of Random Fields. <i>Computational Materials Science</i>, 2015. <a href="http://dx.doi.org/10.1016/j.commatsci.2015.02.039" target="_blank" class="doi">10.1016/j.commatsci.2015.02.039</a> <a class="preprint" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/272575904_Meso-scale_modeling_of_concrete_a_morphological_description_based_on_excursion_sets_of_Random_Fields/links/54e9b6f50cf2f7aa4d53bac2.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
+                <li>R. Gelet, N. Benkemoun, E. Roubin, and J.-B. Colliat. Poro-elastic two-phase material modeling: theoretical formulation and embedded finite element method implementation. <i>International Journal for Numerical and Analytical Methods in Geomechanics</i>, 2015. <a href="http://dx.doi.org/10.1002/nag.2351" target="_blank" class="doi">10.1002/nag.2351</a></li>
+                <li>E. Roubin, A. Vallade, N. Benkemoun, and J.-B. Colliat. Multi-scale failure of heterogeneous materials: a double kinematics enhancement for embedded finite element method. <i>International Journal of Solids and Structures</i>, 2015. <a href="http://dx.doi.org/10.1016/j.ijsolstr.2014.10.001" target="_blank" class="doi">10.1016/j.ijsolstr.2014.10.001</a> <a class="preprint" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/267456223_Multi-scale_failure_of_heterogeneous_materials_a_double_kinematics_enhancement_for_Embedded_Finite_Element_Method/links/545e12290cf2c1a63bfbffeb.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
+                <!-- <li>V. Magnier, E. Roubin, J.-B. Colliat, and P. Dufr&eacute;noy. Methodology of porosity modelling for friction pad : Consequence on squeal. <i>Accepted for publication in Journal of Sound and Vibration</i>, 2015.</li>  -->
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2014</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li style="opacity:0.5">J. Oliver, M. Caicedo, E. Roubin, and A. Huespe. Continuum approach to computational multi-scale modeling of fracture. <i>Key Engineering Materials</i>, 627:349–352, 2014, <a href="http://dx.doi.org/10.4028/www.scientific.net/KEM.627.349" target="_blank" class="doi">10.4028/www.scientific.net/KEM.627.349</a> <a class="preprint" href="https://www.researchgate.net/publication/272575913_Continuum_approach_to_computational_multi-scale_modeling_of_fracture" target="_blank"></a></li>
+                <li>E. Roubin, M. Al. Shamaa, J.-B. Colliat, A. Pavoine, L. Divet, J.-M. Torrenti, and G. Nahas. A nonlinear meso–macro approach to modelling delayed ettringite formation and concrete degradation. <i>Materials and Structures</i>, 2014. <a href="http://dx.doi.org/10.1617/s11527-013-0160-z" target="_blank" class="doi">10.1617/s11527-013-0160-z</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <h3>Seminars and Conferences</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2015</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li>E. Roubin, M. Caicedo, J.A. Hernandez, A.E. Huespe and J. Oliver. On POD based reduction-order modeling in multi-scale material failure simulation. In <i>CMN2015</i>, Portugal, 2015. <a class="keynote" href="https://www.researchgate.net/publication/279448001_keynote_CMN2015_-_On_POD_based_reduction-order_modeling_in_multi-scale_material_failure_simulation" target="_blank"></a></li>
+                <li>M. Caicedo, E. Roubin and J. Oliver. Continuum multi-scale modeling of fracture in cementicious-like materials. In <i>CMN2015</i>, Portugal, 2015.</li>
+                <li>J. Oliver, M. Caicedo, E. Roubin, and A. E. Huespe. Continuum multi-scale modeling of fracture. In <i>Euromech 559</i>, The Netherlands, 2015.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2014</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li>M. Caicedo, J. Oliver, A. Huespe, E. Roubin, and J. Hernandez. Continuum multiscal (FE2) modeling of material failure. In <i>WCCM - 11th</i>, Spain, 2014.</li>
+                <li>E. Roubin, N. Benkemoun, and J.-B. Colliat. Mesoscale finite element modeling of cementitious materials. In <i>WCCM - 11th</i>, Spain, 2014. <a class="abstract" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/267979837_Meso-scale_FE_and_morphological_modeling_of_cementitious_material/links/545e177c0cf27487b44ef1b5.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a> <a class="keynote" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/267979768_keynote_WCCM_XI_-_Meso-scale_FE_and_morphological_modeling_of_cementitious_material/links/545e18c20cf27487b44ef29b.pdf?ev=pub_int_doc_dl&origin=publication_list&inViewer=true" target="_blank"></a></li>
+                <li>J. Oliver, M. Caicedo, E. Roubin, J. Hernandez, and A. Huespe. Multi-scale (FE2) analysis of material failure in cement/aggregate-type composite structures. In <i>Euro-C</i>, Austria, 2014. <a class="draft" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/265648968_Multi-scale_%28FE2%29_analysis_of_material_failure_in_cementaggregate-type_composite_structures/links/5417fa950cf2218008bf05c3.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2013</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li>E. Roubin. Multi-scale simulation of quasi-brittle heterogeneous materials: application to concrete like materials. In <i>31e rencontres de l’AUGC</i>, France, 2013. <a class="draft" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/256667996_Multi-scale_simulation_of_quasi-brittle_heterogeneous_materials_application_to_concrete_like_materials/links/02e7e5239671741c85000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2012</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li>E. Roubin, N. Benkemoun, and J.-B. Colliat. Quasi-brittle failure of heterogeneous materials: 3d meso-scale FE models with embedded discontinuities. In <i>WCCM - 10th</i>, Brazil, 2012.</li>
+                <li>M. Bogdan, E. Roubin, J.-B. Colliat, F. Benboudjema, and L. Stefan. Morphological modeling of cement based materials and hydration process. In <i>MicroDurability</i>, Netherlands, 2012. <a class="draft" href="https://www.researchgate.net/profile/Mateusz_Bogdan/publication/267513220_MORPHOLOGICAL_MODELING_OF_CEMENT_BASED_MATERIALS_AND_HYDRATION_PROCESS/links/5451fddf0cf285a067c6b1dc.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
+                <li>M. Bogdan, E. Roubin, J.-B. Colliat, F. Benboudjema, and L. Stefan. Modélisation des transferts de masse dans les matériaux à matrice cimentaire à l’aide d’un modèle morphologique. In <i>Transfert 2012</i>, Lille (France), 2012.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2011</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li>E. Roubin, M. Bogdan, and J.-B. Colliat. Multi-scale failure for heterogeneous materials: link with morphological modeling. In  <i>COMPLAS - XI</i>, Spain, 2011. <a class="draft" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/256482718_MULTI-SCALE_FAILURE_FOR_HETEROGENEOUS_MATERIALS_LINK_WITH_MORPHOLOGICAL_MODELING/links/00b7d52302b095883f000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2010</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li>E. Roubin and J.-B. Colliat. Modélisation morphologique de matériaux hétérogènes par seuillage de champs aléatoires : application aux matériaux à matrice cimentaire. In <i>Séminaires des doctorants</i>, LMT-Cachan, 2010.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <h3>Reports</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2013</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li>E. Roubin. Meso-scale FE and morphological modeling of heterogeneous media: application to cementitious materials. PhD thesis, <i>&Eacute;cole Normale Sup&eacute;rieure de Cachan</i>, LMT-Cachan, France, 2013. <a class="draft" href="https://www.researchgate.net/profile/Emmanuel_Roubin/publication/257890878_Meso-scale_FE_and_morphological_modeling_of_heterogeneous_media_applications_to_cementitious_materials/links/02e7e527a1c8917a8c000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true" target="_blank"></a> <a class="tel" href="https://tel.archives-ouvertes.fr/tel-00957377" target="_blank">00957377</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <h4>2010</h4>
+            </div>
+            <div class="col-sm-11">
+              <ul>
+                <li>E. Roubin. Modélisation morphologique de matériaux hétérogènes par seuillage de champs aléatoires : application aux matériaux à matrice cimentaire. Internship, <i>&Eacute;cole Normale Sup&eacute;rieure de Cachan</i>, LMT-Cachan, France, 2010. <a class="draft" href="http://perso.crans.org/roubin/dl/Roubin_Master_thesis.pdf" target="_blank"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> <!-- close section publication -->
+
+      <!-- open title career -->
+      <div id="career" class="row newsection roundbox4px">
+        <div class="col-sm-12 flex-vertical">
+          <div class="flex-left">
+            <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Career</h2>
+          </div>
+          <div class="flex-right">
+            <a  href="#findme"      class="fa fa-map-signs"></a>
+            <a  href="#career"      class="fa fa-graduation-cap"></a>
+            <a  href="#publication" class="fa fa-book"></a>
+            <a  href="#research"    class="fa fa-area-chart "></a>
+          </div>
+        </div>
+      </div> <!-- close title career -->
+
+      <!-- open section career -->
+      <div class="row career">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="row">
+            <div class="col-sm-12 flex-align">
+              <span><a class="frame external" href="https://github.com/roubin/Curriculum/raw/master/roubin_cv_2p_french.pdf" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Curriculum Vit&aelig; in french </a></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              Since September 2015
+            </div>
+            <div class="col-sm-9">
+              <strong>Ma&icirc;tre de conf&eacute;rence</strong> at the <a href="http://www.3sr-grenoble.fr" target="_blank">3SR</a> (Sols, Solides, Structures et Risques) and the <a href="https://iut1.ujf-grenoble.fr" target="_blank">IUT DGGC</a> in Grenoble.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              October 2013 - June 2015
+            </div>
+            <div class="col-sm-9">
+              <strong>Postdoctoral researcher</strong> at the International Center for Numerical Methods in Engineering (<a href="http://www.cimne.com" target="_blank">CIMNE</a>, Barcelona Spain) for the project Advanced tools for computational design of engineering materials (ERC, <a href="http://compdesmat.com" target="_blank">COMP-DES-MAT</a>) with Professor X. Oliver.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              October 2013
+            </div>
+            <div class="col-sm-9">
+              <strong>Doctor of the ENS Cachan</strong>. Subject: Meso-scale FE and morphological modeling of heterogeneous media: applications to cementitious materials.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              May - June 2012
+            </div>
+            <div class="col-sm-9">
+              Stay at the Institut für Wissenschaftliches Rechnen, (<a href="https://www.tu-braunschweig.de/wire" target="_blank">wire</a>, Braunschweig Germany), with Professor H.G. Matthies.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              September 2010 to 2013
+            </div>
+            <div class="col-sm-9">
+              <strong>Ph.D. Thesis</strong> at the <a href="http://www.lmt.ens-cachan.fr" target="_blank">LMT-Cachan</a> (ENS Cachan, France) under the supervision of Professor J.-B. Colliat.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              June 2010
+            </div>
+            <div class="col-sm-9">
+              <strong>Master degree</strong> of the ENS Cachan (France) in Civil Engineering.
+            </div>
+          </div>
+        </div>
+      </div> <!-- close section career -->
+
+      <!-- open title find me -->
+      <div id="findme" class="row newsection roundbox4px">
+        <div class="col-sm-12 flex-vertical">
+          <div class="flex-left">
+            <h2><i class="fa fa-map-signs" aria-hidden="true"></i> Find me</h2>
+          </div>
+          <div class="flex-right">
+            <a  href="#findme"      class="fa fa-map-signs"></a>
+            <a  href="#career"      class="fa fa-graduation-cap"></a>
+            <a  href="#publication" class="fa fa-book"></a>
+            <a  href="#research"    class="fa fa-area-chart "></a>
+          </div>
+        </div>
+      </div> <!-- close title find me -->
+
+      <!-- open section find me -->
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="row">
+            <div class="col-sm-4">
+              <h4>On the internet</h4>
+            </div>
+            <div class="col-sm-8">
+              <a class="frame external" href="http://www.researcherid.com/rid/L-7248-2014" target="_blank">Researcher<strong>ID</strong> (L-7248-2014)</a>
+              <a class="frame external" href="http://github.com/roubin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a><br />
+              <a class="frame external" href="http://scholar.google.fr/citations?user=DSfSW7oAAAAJ&hl=fr" target="_blank"><strong>Google</strong> Scholar</a>
+              <a class="frame external" href="https://www.researchgate.net/profile/Emmanuel_Roubin" target="_blank">Research<strong>Gate</strong></a>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-sm-4">
+              <h4>IRL</h4>
+            </div>
+            <div class="col-sm-4">
+              <i class="fa fa-building" aria-hidden="true"></i> <strong>Address</strong><br/>
+              Laboratoire 3SR<br/>
+              Bâtiment Galilée, Bureau 228<br/>
+              1270 rue de la piscine<br/>
+              38 400 Saint Martin d'Hères, France
+            </div>
+
+            <div class="col-sm-4">
+              <i class="fa fa-phone" aria-hidden="true"></i> <strong>Phone</strong><br/>
+              +33 (0)4 56 52 86 49<br/>
+              <hr />
+              <i class="fa fa-envelope" aria-hidden="true"></i> <strong>email</strong><br/>
+              <div class="reveal-ancestor" style="height:3em;line-height:3em;">
+                <a     class="frame email click reveal-trigger"><img src="img/email_tr.png" style="height:1em;vertical-align:middle;" alt="email"></a>
+                <input class="frame email click reveal-value" style="display:none"><br />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-sm-2"><h4>Walkthrough</h4></div>
+            <div class="col-sm-10">
+              <ol>
+                <li>From the <i class="fa fa-subway"></i> <a class="popupMap" id="markerA" href="">"SNCF train station"</a> walk to the <i class="fa fa-train"></i> <a class="popupMap" id="markerB" href="">tram station "Gare-Europole"</a></li>
+                <li>Take the <a class="popupMap" id="tramMovi" href="">TRAM B <i class="fa fa-arrow-right"></i> "Gi&egrave;res Plaine des Sports"</a> and stop at <i class="fa fa-train"></i> <a class="popupMap" id="markerC" href="">"Biblioth&egrave;ques Universitaires"</a></li>
+                <li><a class="popupMap" id="walkMovi" href="">Walk</a> from there to the <a class="popupMap" id="markerD" href="">Laboratoire 3SR</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div> <!-- close section find me -->
+
+      <!-- open map -->
+      <div id="open-map" class="unfold-ancestor roundbox4px click">
+        <div class="row newsection unfold-toggle">
+          <div class="col-xs-12 flex-align">
+            <h2 id="map-folded"><i class="fa fa-map"></i> Unfold map</h2>
+            <h2 id="map-unfolded" style="display:none"><i class="fa fa-map"></i> Fold map</h2>
+          </div>
+        </div>
+        <div class="row unfold-child">
+          <div class="col-xs-12">
+            <div style="text-align:center">
+              <div id="display-map" class="roundbox10px"></div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- close map -->
+      <hr />
+      <!-- download infos -->
+      <div class="row flex-align">
+        <a class="frame download big" href="http://perso.crans.org/roubin/dl/Roubin_contact_3SR.pdf" target="_blank">Download contact information and maps</a>
+      </div>
+
+    </div> <!-- close middle col -->
+  </div> <!-- close container -->
+
+  <!-- js jquery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  <!-- js bootstrap -->
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- js leaflet -->
+  <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet/v1.0.0-rc.1/leaflet.js"></script>
+  <!-- js MovingMarker -->
+  <script type="text/javascript" src="js/MovingMarker.js"></script>
+  <!-- js leaflet extra-markers -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+  <!-- js load leaflet map -->
+  <script type="text/javascript" src="js/map.js"></script>
+  <!-- js perso -->
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
 </html>
